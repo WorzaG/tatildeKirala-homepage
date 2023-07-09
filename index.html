@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/firstscreen.css" />
+    <link rel="stylesheet" href="css/dropdownmenu.css">
+    <link rel="stylesheet" href="css/first-content.css">
+    <link rel="stylesheet" href="css/s-content.css">
+    <link rel="stylesheet" href="css/third-content.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <title>Tatilde Kirala</title>
+  </head>
+  <body>
+    <div class="all-page">
+      <div class="first-screen">
+        <div class="content">
+        <div class="header">
+           <a href="#"><img src="css/image/logo.png"/></a>
+            <ul>
+                <li class="dropbtn" id="btn" onclick="openclose()">Kiralık Villalar </li>
+                <div class="dropdown">
+                    <div class="eject"><img src="css/image/eject.png" /></div>
+                    <h4>Popüler Villa Kiralama Bölgeleri</h4>
+                    <ul id='drop-menu'>
+                        <script>
+                          let doc = document.querySelector('#drop-menu');
+                          for(let i = 0 ; i < 15 ; i++){
+                            let createLi = document.createElement('li');
+                            let node = document.createTextNode('Antalya Kiralık Villa');
+                            createLi.appendChild(node);
+                            doc.appendChild(createLi);
+                          }
+
+                        </script>
+                    </ul>
+                </div>
+                <a href="#"><li><img src="css/image/phone.png">iletişim</li></a>
+                <a href="#"><li><img src="css/image/user.png">Giriş Yap</li></a>
+                <a href="#"><li><img src="css/image/home.png">Ücretsiz İlan ver</li></a>
+            </ul>
+          </div>
+          <div class="f-content">
+            <div class="search-place">
+              <span class="explan">
+                5.000
+                <p class="plus">+</p>
+                <p class="numbers-text">kiralık villa</p>
+                <div class="f-line"></div>
+                <p class="e-text">Türkiye’nin en büyük
+                  villa kiralama platformu!</p>
+              </span>     
+              <div class="s-filter">
+                <input type="radio" name="filter" id="home" checked>
+                <label for="home">Ev & Villa</label>
+                <input type="radio" name="filter" id="boat">
+                  <label for="boat">Tekne</label>
+                <input type="radio" name="filter" id="no">
+                <label for="no">İlan Numarası</label>
+              </div> 
+              <div class="searching">
+                <div class="search-elements">
+                  <div class="location">
+                    <span> <img src="css/image/location.png"> </span>
+                    <input type='search' name="location" id="locations" placeholder="Nereye ?">
+                  </div>
+                  <div class="calender">
+                    <span> <img src="css/image/calender.png"></span>
+                    <input type="date">
+                    <input type="date">
+                  </div>
+                  <div class="people">
+                    <span> <img src="css/image/userblack.png"> </span>
+                    <input type="number" placeholder="Kişi Sayısı">
+                  </div>
+                  <div class="s-button">
+                <img src="css/image/search.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+        </div>
+        <div class="efects">
+            <div class="efect"></div>
+        </div>
+      </div>
+      <div class="second-cont">
+         <div class="s-box">
+           <div class="box-cont">
+             <span><img src="css/image/tursab.webp"></span>
+             <span>
+               <p>Villanızı <strong class="s-strong"> TÜRSAB </strong>Güvencesiyle Kiralayın</p>
+               <a href="#">İNCELEYİN</a>
+              </span> 
+           </div>
+          </div>
+         <div class="s-box">
+           <div class="box-cont">
+             <span><img src="css/image/iade.webp"></span>
+             <span>
+               <p>%100 Para İadesi Güvencesiyle Kiralayın</p>
+               <a href="#">İNCELEYİN</a>
+              </span>
+            </div>
+         </div>
+        <div class="s-box">
+          <div class="box-cont">
+            <span><img src="css/image/2022.webp"></span>
+            <span>
+              <p>2022 Yılı Fiyatı Güncel İlanlar</p>
+              <a href="#">İNCELEYİN</a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="third-cont">
+        <div class="t-slider">
+            <div class="title-slide">
+              <div class="title-line1"></div>
+              <p>Popüler Villa Kiralama Bölgeleri</p>
+              <div class="title-line2"></div>
+            </div>
+            <div class="slider">
+              <div class="slidebox">
+                <img src="css/image/fethiye.webp">
+                <p>Fethiye</p>
+              </div>      
+              <div class="slidebox">
+                <img src="css/image/fethiye.webp">
+                <p>Fethiye</p>
+              </div>
+              <div class="slidebox">
+                <img src="css/image/fethiye.webp">
+                <p>Fethiye</p>
+              </div>
+              <div class="slidebox">
+                <img src="css/image/fethiye.webp">
+                <p>Fethiye</p>
+              </div>    
+              <div class="slidebox">
+                <img src="css/image/fethiye.webp">
+                <p>Fethiye</p>
+              </div>
+            </div> 
+        </div>
+        <div class="t-slider">
+          <div class="title-slide">
+            <div class="title-line1"></div>
+            <p>Nasıl Bir Villa Kiralamak İstiyorsunuz?</p>
+            <div class="title-line2"></div>
+          </div>
+          <div class="slider">
+      
+          </div> 
+      </div>
+      </div>
+    <script src='js/dropdown.js'></script>
+    <script src='js/search-element.js'></script>
+</body>
+</html>

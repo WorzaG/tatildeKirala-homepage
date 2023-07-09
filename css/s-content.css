@@ -1,0 +1,37 @@
+.second-cont {
+  display: flex;
+  justify-content: center;
+  margin-top: -48px;
+  position: relative;
+  z-index: 99;
+  padding: 0 20px;
+}
+.second-cont .s-box {
+  display: flex;
+  width: 390px;
+  height: 96px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.second-cont .s-box:not(:first-child) {
+  margin-left: 20px;
+}
+.second-cont .s-box .box-cont {
+  display: flex;
+  align-items: center;
+  padding: 15px 10px;
+}
+.second-cont .s-box .box-cont span {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 5px;
+}
+.second-cont .s-box .box-cont span p strong {
+  color: #d63838;
+}
+.second-cont .s-box .box-cont span a {
+  font-size: 12px;
+  font-weight: 600;
+  color: #3972dc;
+}

@@ -1,0 +1,51 @@
+.first-screen {
+  background-image: url("image/first.jpg");
+  background-repeat: round;
+  width: 100%;
+  height: 644px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 10px;
+  z-index: 99;
+  margin: auto;
+  position: relative;
+}
+.header ul {
+  display: flex;
+  list-style: none;
+}
+.header ul li {
+  outline: 21px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  padding: 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header ul a {
+  cursor: pointer;
+}
+.header ul li img {
+  padding-right: 10px;
+}
+.first-screen .efects {
+  background-image: linear-gradient(to bottom, #003999, rgba(20, 85, 197, 0));
+  position: absolute;
+  opacity: 0.5;
+  z-index: 1;
+  top: 0px;
+  width: 100%;
+  height: 644px;
+}
+.first-screen .efects .efect {
+  background: rgba(24, 34, 51, 0.35);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+}
